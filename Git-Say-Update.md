@@ -31,4 +31,11 @@ npm run build
 ```bash
  sudo nginx -t && sudo systemctl reload nginx
 ```
- 
+
+ ## ✅ 5. Health Check
+ ```bash
+git status
+pm2 status
+sudo systemctl status nginx
+```
+
