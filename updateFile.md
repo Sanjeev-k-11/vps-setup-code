@@ -46,6 +46,10 @@ pm2 restart <app_name>      # Restart specific app
 pm2 logs                    # View real-time error/output logs
 pm2 monit                   # Open interactive dashboard
 
+## if you are updated all deta all backend the
+pm2 start Server.js --name goride
+
+
 # Persistence
 pm2 save                    # Keeps apps running after server reboot
 
