@@ -1,7 +1,7 @@
 # 🚀 Production Deployment Bible
 ### **Full-Stack Managed Environment (Nginx + PM2 + React + Node.js + MongoDB)**
 
-![Server Status](https://img.shields.io/badge/Server-Ubuntu_Linux-orange?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Server Status](https://img.shields.io/badge/Server-Ubuntu_Linux-orange?style=for-the-badge&logo=ubuntu&logoColor=white) 
 ![Nginx](https://img.shields.io/badge/Nginx-Reverse_Proxy-green?style=for-the-badge&logo=nginx&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-Process_Manager-blue?style=for-the-badge&logo=pm2&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
