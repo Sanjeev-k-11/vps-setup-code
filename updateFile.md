@@ -85,9 +85,19 @@ sudo systemctl restart nginx   # Full restart
 ```
 
 ## html update
-##  GoSafey project folder me jao
+## GoSafey Website Update + Deploy
+
 ```
+# GoSafey project folder me jao
 cd ~/GoSafey
+
+# GitHub se latest code pull karo
+git pull origin main
+
+# Agar local changes hain to GitHub par push karo
+git add .
+git commit -m "Website update"
+git push origin main
 
 # Website root me copy karo
 cp -r * /home/gosafey/htdocs/gosafey.store/
@@ -97,6 +107,5 @@ sudo nginx -t
 
 # Nginx reload (no downtime)
 sudo systemctl reload nginx
-
-
 ```
+
