@@ -109,3 +109,7 @@ sudo nginx -t
 sudo systemctl reload nginx
 ```
 
+## update single file 
+```
+scp "C:\Users\ASUS\OneDrive\Desktop\Goback.csd" root@88.88.888.888:/root/Goback/
+```
